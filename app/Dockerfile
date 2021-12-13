@@ -7,5 +7,3 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT [ "python" ]
 CMD [ "telegram_bot.py" ]
-
-EXPOSE 8000
