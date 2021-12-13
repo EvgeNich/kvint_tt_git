@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  python:
+    restart: always
+    build: ./app
+    container_name: python-telegram
+    environment:
+      TELEBOT_TOKEN: 'TOKEN'

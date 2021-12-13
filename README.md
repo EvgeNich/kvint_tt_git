@@ -1,0 +1,1 @@
+To deploy an app change 'TOKEN' in `docker-compose.yaml` to the real one and run `docker-compose up` command.
